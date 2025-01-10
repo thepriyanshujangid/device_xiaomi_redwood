@@ -22,6 +22,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-goodix.kl
 
+# Kernel
+LOCAL_KERNEL := device/xiaomi/redwood-kernel/Image
+PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
 
 # Overlays
 PRODUCT_PACKAGES += \
