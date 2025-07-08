@@ -54,3 +54,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/redwood/redwood-vendor.mk)
+
+# MIUI Camera
+$(call inherit-product-if-exists, vendor/xiaomi/redwood-miuicamera/device.mk)
