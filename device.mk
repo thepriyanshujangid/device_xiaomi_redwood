@@ -24,18 +24,19 @@ PRODUCT_COPY_FILES += \
 
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
-# Overlays-RRO
 PRODUCT_PACKAGES += \
-    redwoodCNSettingsProviderOverlay \
-    redwoodCNWifiOverlay \
-    redwoodGLSettingsProviderOverlay \
-    redwoodGLWifiOverlay \
-    redwoodINSettingsProviderOverlay \
-    redwoodINWifiOverlay
+    ApertureOverlayRedwood
+
+PRODUCT_PACKAGES += \
+    FrameworkOverlayRedwood \
+    SettingsOverlayRedwood \
+    SettingsProviderOverlayRedwoodCN \
+    SettingsProviderOverlayRedwoodGL \
+    SettingsProviderOverlayRedwoodIN \
+    SystemUIOverlayRedwood \
+    WifiOverlayRedwoodCN \
+    WifiOverlayRedwoodGL \
+    WifiOverlayRedwoodIN
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
