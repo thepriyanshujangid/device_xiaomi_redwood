@@ -7,4 +7,8 @@
 <resources>
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
+
+    <!-- ROM maintainer name -->
+    <string name="build_maintainer_summary">𝙿𝚁𝙸𝚈𝙰𝙽𝚂𝙷𝚄</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://paypal.me/thepriyanshujangid</string>
 </resources>

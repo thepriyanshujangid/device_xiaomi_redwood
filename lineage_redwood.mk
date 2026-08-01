@@ -28,3 +28,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := POCO/redwood_global/redwood:14/UKQ1.240624.001/OS2.0.4.0.UMSMIXM:user/release-keys
+
+# Evolution specific Flags 
+EVO_BUILD_TYPE := Official
+TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GMS := true
